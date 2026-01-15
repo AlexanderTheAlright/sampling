@@ -45,28 +45,54 @@ The number of your chosen topic: `#`
 Describe the purpose of your survey:
 
 ```
-write your answer here...
+This survey aims to examine how age influences music taste, particularly perceptions of popular music, among different age groups. The research seeks to capture both cross-sectional comparisons between people of different ages and retrospective data about how individuals' music preferences have changed across their lifetimes. The findings will contribute to an academic paper exploring the relationship between aging and musical preferences.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 
 ```
-write your answer here...
+Target population: Adults aged 18 and older residing in the Greater Toronto Area who listen to music at least occasionally.
+
+Sampling frame: A combination of (1) publicly available phone directories and digital contact lists for households in the GTA, and (2) membership lists from community organizations, libraries, and seniors' centres to ensure adequate representation of older adults who may be harder to reach through digital means alone.
+
+Sampling units: Households initially, then one individual randomly selected per household.
+
+Observational units: Individual respondents who provide information about their own music listening habits, preferences, and perceived changes in taste over time.
+
+Sampling strategy: Stratified random sampling with age-based strata (18-29, 30-44, 45-59, 60+) to ensure adequate representation across age groups for meaningful comparisons. Within each stratum, simple random sampling will be used. This approach is justified because the research question specifically concerns age-related differences, so sufficient sample sizes within each age category are essential for valid statistical comparisons. Oversampling of older age groups may be necessary given typically lower response rates among seniors.
 ```
 
 Your 5-10 question survey:
 
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How old are you? 
+   [ ] 18-29  [ ] 30-44  [ ] 45-59  [ ] 60-74  [ ] 75 or older
+
+2. On average, how often do you listen to music?
+   [ ] Every day  [ ] A few times a week  [ ] A few times a month  [ ] Rarely  [ ] Never
+
+3. Which genres of music do you currently enjoy most? (Select up to three)
+   [ ] Pop  [ ] Rock  [ ] Hip-hop/Rap  [ ] Country  [ ] Classical  [ ] Jazz  [ ] R&B/Soul  
+   [ ] Electronic/Dance  [ ] Folk/Indie  [ ] Other: _______
+
+4. Thinking back to when you were in your late teens or early twenties, which genres did you enjoy most at that time? (Select up to three)
+   [ ] Pop  [ ] Rock  [ ] Hip-hop/Rap  [ ] Country  [ ] Classical  [ ] Jazz  [ ] R&B/Soul  
+   [ ] Electronic/Dance  [ ] Folk/Indie  [ ] Other: _______  [ ] Not applicable/Can't recall
+
+5. How much do you agree or disagree with the following statement: "The popular music released today is as good as the popular music from when I was younger."
+   [ ] Strongly agree  [ ] Somewhat agree  [ ] Neither agree nor disagree  
+   [ ] Somewhat disagree  [ ] Strongly disagree
+
+6. When you discover new music today, how do you typically find it? (Select all that apply)
+   [ ] Streaming recommendations (Spotify, Apple Music, etc.)  [ ] Radio  
+   [ ] Friends or family  [ ] Social media  [ ] Television/Film soundtracks  
+   [ ] I rarely seek out new music  [ ] Other: _______
+
+7. Compared to ten years ago, would you say your openness to trying new genres or artists has:
+   [ ] Increased  [ ] Stayed about the same  [ ] Decreased  [ ] Not sure
+
+8. How important is music in your daily life?
+   [ ] Very important  [ ] Somewhat important  [ ] Not very important  [ ] Not at all important
 ```
 
 ## Part B - Survey Evaluation:
@@ -74,7 +100,71 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Survey: Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (Cycle 33)
+Conducted by: Statistics Canada
+
+1. Sample type:
+Stratified two-stage probability sample with "rejective sampling" for the population of interest (volunteers). The frame integrated telephone numbers (landline and cellular) from the Census, administrative data, and billing files with Statistics Canada's Address Register. This replaced the previous Random Digit Dialing (RDD) approach used until 2012. The 2018 cycle was the first to offer an Internet self-completion option alongside CATI.
+
+2. Sample size:
+Target sample size of approximately 20,000 respondents, consistent with the GSS standard since 1999 (previously 10,000 until 1998). The exact number of completed interviews for Cycle 33 was approximately 20,000 respondents.
+
+3. Target population:
+All persons aged 15 years and older living in private households in the ten provinces of Canada. Excluded: residents of Yukon, Northwest Territories, and Nunavut; full-time residents of institutions (residing more than six months).
+
+4. Sampling frame:
+An integrated frame combining multiple sources: landline and cellular telephone numbers from the Census of Population, administrative data sources, and billing files, linked with Statistics Canada's Address Register. This improved coverage compared to the previous RDD frame, particularly for cell-phone-only households.
+
+5. Survey mode(s):
+Mixed-mode data collection—this was the first GVP iteration to offer an Internet option. Respondents could complete the survey via:
+- Electronic questionnaire (EQ) self-completion online
+- Computer Assisted Telephone Interviewing (CATI)
+Proxy reporting was not permitted. Respondents could choose to complete the survey in English or French. Average completion time was approximately 44 minutes.
+
+6. Timeline:
+Data collection period: September to December 2018 (four-month collection window)
+Reference period: Past 12 months preceding interview date
+
+7. Response rate:
+The GSS program experienced declining response rates in recent years, averaging 60-65% prior to the 2018 redesign. The introduction of the electronic questionnaire option in 2018 may have affected response patterns, though Statistics Canada notes it is impossible to determine the precise impact of methodological changes versus actual population changes.
+
+8. Weights:
+Person-level weighting factor (WGHT_PER) provided for analysis. Weights account for:
+- Probability of selection
+- Rejective sampling adjustment (multiplying weights for non-volunteers who were not "rejected")
+- Non-response adjustments using administrative data on non-responding households (income, household composition)
+- Calibration to match the 2017 Canadian Income Survey (CIS) income distribution by province
+Bootstrap weights are also provided for variance estimation using the bootstrap method.
+
+9. Data processing:
+Electronic questionnaire system included built-in edits for valid response ranges and automatic questionnaire flow. Head office performed additional validation including flow edits, consistency checks, and detailed error resolution. Interviewer comments were reviewed and incorporated into editing decisions.
+
+10. Cleaning, imputation, etc:
+Donor imputation was the primary method for handling missing data. Records with missing values were matched to donor records with similar characteristics using a score function. Imputation was performed in stages covering: personal/family income, donation variables, formal volunteering variables, and informal volunteering variables. For income specifically, tax data linkage (2017 T1FF) was used for 81.9% of respondents who consented; the remainder were imputed. Mean imputation was used when donor imputation was not feasible.
+
+11. Sources of error:
+Sampling error: Estimates based on samples vary from sample to sample; bootstrap weights enable estimation of sampling variability. Estimates with high sampling variability are flagged.
+
+Non-sampling errors include:
+- Coverage error: Frame excludes households without telephone numbers (though coverage improved over RDD). Survey estimates were weighted to represent the full target population.
+- Non-response error: Addressed through weight adjustments using administrative characteristics of non-responding households
+- Response/measurement error: Minimized through extensive questionnaire testing at QDRC, proven methodology, and specialized interviewers
+- Processing error: Reduced through automated and manual editing procedures
+
+12. Limitations, known biases, etc:
+- Comparability issues: The 2018 introduction of the electronic questionnaire option makes direct comparison with previous iterations inappropriate. Statistics Canada explicitly states it is impossible to determine whether differences reflect actual population changes or methodological effects.
+- Exclusion of territories and institutional residents limits generalizability
+- Self-reported data on giving and volunteering may be subject to social desirability bias
+- Retrospective questions about past behaviours may suffer from recall error
+- Questionnaire revisions (updates for online technologies, international volunteering standards) affect comparability with earlier waves
+- Mode effects: Differences between self-completed EQ and CATI responses may introduce measurement variation
+
+13. Link to documentation and additional sources:
+Primary documentation:
+- PUMF User Guide: https://www150.statcan.gc.ca/n1/en/catalogue/45250011
+- Survey methodology page: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
+- Summary of changes: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getMainChange&Id=143876
+- GSS Overview (2019): https://www150.statcan.gc.ca/n1/pub/89f0115x/89f0115x2019001-eng.htm
 ```
 
 ## Rubric
